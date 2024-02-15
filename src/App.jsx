@@ -2,8 +2,7 @@ import { useEffect } from "react";
 import "./App.css";
 
 const APP_URLS = {
-    android:
-        "https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id=com.sourceone.buyer",
+    android: "market://details?id=com.sourceone.buyer",
     ios: "https://apps.apple.com/in/app/source-buy/id6443432457",
 };
 
